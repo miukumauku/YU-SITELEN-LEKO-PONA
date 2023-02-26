@@ -3,17 +3,17 @@
 <plist version="1.0">
   <dict>
     <key>familyName</key>
-    <string>SITELEN LEKO PONA</string>
+    <string>YU SITELEN LEKO PONA</string>
     <key>styleName</key>
     <string>PONA</string>
     <key>styleMapFamilyName</key>
-    <string>SITELEN LEKO PONA</string>
+    <string>YU SITELEN LEKO PONA</string>
     <key>versionMajor</key>
     <integer>0</integer>
     <key>versionMinor</key>
-    <integer>500</integer>
+    <integer>700</integer>
     <key>copyright</key>
-    <string>Copyright (c) 2023, @miukumauku_ (HDL)</string>
+    <string>Copyright (c) 2023, @miukumauku_</string>
     <key>unitsPerEm</key>
     <integer>640</integer>
     <key>ascender</key>
@@ -23,15 +23,15 @@
     <key>italicAngle</key>
     <real>0</real>
     <key>openTypeHeadCreated</key>
-    <string>2023/02/04 09:00:00</string>
+    <string>2023/02/04 13:31:32</string>
     <key>openTypeHheaAscender</key>
-    <integer>538</integer>
+    <integer>540</integer>
     <key>openTypeHheaDescender</key>
     <integer>0</integer>
     <key>openTypeHheaLineGap</key>
     <integer>89</integer>
     <key>openTypeNameVersion</key>
-    <string>Version 0.500</string>
+    <string>Version 0.700</string>
     <key>openTypeOS2WidthClass</key>
     <integer>5</integer>
     <key>openTypeOS2WeightClass</key>
@@ -52,13 +52,13 @@
     <key>openTypeOS2TypoLineGap</key>
     <integer>89</integer>
     <key>openTypeOS2WinAscent</key>
-    <integer>538</integer>
+    <integer>540</integer>
     <key>openTypeOS2WinDescent</key>
     <integer>0</integer>
     <key>postscriptFontName</key>
-    <string>SITELEN-LEKO-PONA</string>
+    <string>YU-SITELEN-LEKO-PONA</string>
     <key>postscriptFullName</key>
-    <string>SITELEN LEKO PONA</string>
+    <string>YU SITELEN LEKO PONA</string>
     <key>postscriptWeightName</key>
     <string>Regular</string>
     <key>postscriptUnderlineThickness</key>

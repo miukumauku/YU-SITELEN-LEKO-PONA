@@ -1,6 +1,6 @@
 # YU-SITELEN-LEKO-PONA (Open Source Font)
 
-v0.60  
+v0.70  
 
 This font is a *sitelen pona* font for *toki pona* language.  
 Retro 7x5 pixels display design font. 

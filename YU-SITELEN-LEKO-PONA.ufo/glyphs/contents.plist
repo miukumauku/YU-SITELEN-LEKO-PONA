@@ -436,5 +436,65 @@
     <string>leko.glif</string>
     <key>space.0</key>
     <string>space.0.glif</string>
+    <key>sp_namako</key>
+    <string>sp_namako.glif</string>
+    <key>sp_kin</key>
+    <string>sp_kin.glif</string>
+    <key>sp_kipisi</key>
+    <string>sp_kipisi.glif</string>
+    <key>sp_oko</key>
+    <string>sp_oko.glif</string>
+    <key>sp_tonsi</key>
+    <string>sp_tonsi.glif</string>
+    <key>sp_jasima</key>
+    <string>sp_jasima.glif</string>
+    <key>sp_soko</key>
+    <string>sp_soko.glif</string>
+    <key>sp_meso</key>
+    <string>sp_meso.glif</string>
+    <key>sp_epiku</key>
+    <string>sp_epiku.glif</string>
+    <key>sp_kokosila</key>
+    <string>sp_kokosila.glif</string>
+    <key>sp_lanpan</key>
+    <string>sp_lanpan.glif</string>
+    <key>sp_n</key>
+    <string>sp_n.glif</string>
+    <key>sp_misikeke</key>
+    <string>sp_misikeke.glif</string>
+    <key>sp_ku</key>
+    <string>sp_ku.glif</string>
+    <key>sp_kijetesantakalu</key>
+    <string>sp_kijetesantakalu.glif</string>
+    <key>sp_monsuta</key>
+    <string>sp_monsuta.glif</string>
+    <key>Adieresis</key>
+    <string>A_dieresis.glif</string>
+    <key>Odieresis</key>
+    <string>O_dieresis.glif</string>
+    <key>Aring</key>
+    <string>A_ring.glif</string>
+    <key>AE</key>
+    <string>A_E_.glif</string>
+    <key>Oslash</key>
+    <string>O_slash.glif</string>
+    <key>Eth</key>
+    <string>E_th.glif</string>
+    <key>Thorn</key>
+    <string>T_horn.glif</string>
+    <key>adieresis</key>
+    <string>adieresis.glif</string>
+    <key>odieresis</key>
+    <string>odieresis.glif</string>
+    <key>aring</key>
+    <string>aring.glif</string>
+    <key>ae</key>
+    <string>ae.glif</string>
+    <key>oslash</key>
+    <string>oslash.glif</string>
+    <key>eth</key>
+    <string>eth.glif</string>
+    <key>thorn</key>
+    <string>thorn.glif</string>
   </dict>
 </plist>

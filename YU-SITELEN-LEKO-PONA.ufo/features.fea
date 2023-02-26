@@ -15,11 +15,12 @@ lookup ligaStandardLigaturesinLatinlookup0 {
     sub \s \e \w \i  by \sewi;
     sub \s \i \j \e \l \o  by \sijelo;
     sub \s \i \k \e  by \sike;
+    sub \a.0 \exclam  by \a.0;
     sub \a \k \e \s \i  by \akesi;
     sub \a \l \a  by \ala;
     sub \a \l \a \s \a  by \alasa;
-    sub \a \l \i  by \ali;
     sub \a \l \e  by \ali;
+    sub \a \l \i  by \ali;
     sub \a \n \p \a  by \anpa;
     sub \a \n \t \e  by \ante;
     sub \a \n \u  by \anu;
@@ -102,6 +103,7 @@ lookup ligaStandardLigaturesinLatinlookup0 {
     sub \s \a \m \a  by \sama;
     sub \s \e \l \i  by \seli;
     sub \s \e \l \o  by \selo;
+    sub \seme \question  by \seme;
     sub \s \e \m \e  by \seme;
     sub \s \o \w \e \l \i  by \soweli;
     sub \s \u \l \i  by \suli;
@@ -127,6 +129,21 @@ lookup ligaStandardLigaturesinLatinlookup0 {
     sub \w \i \l \e  by \wile;
     sub \l \e \k \o  by \leko;
     sub \space \space  by \space.0;
+    sub \n \a \m \a \k \o  by \sp_namako;
+    sub \k \i \n  by \sp_kin;
+    sub \k \i \p \i \s \i  by \sp_kipisi;
+    sub \o \k \o  by \sp_oko;
+    sub \t \o \n \s \i  by \sp_tonsi;
+    sub \j \a \s \i \m \a  by \sp_jasima;
+    sub \s \o \k \o  by \sp_soko;
+    sub \m \e \s \o  by \sp_meso;
+    sub \e \p \i \k \u  by \sp_epiku;
+    sub \k \o \k \o \s \i \l \a  by \sp_kokosila;
+    sub \l \a \n \p \a \n  by \sp_lanpan;
+    sub \m \i \s \i \k \e \k \e  by \sp_misikeke;
+    sub \k \u  by \sp_ku;
+    sub \k \i \j \e \t \e \s \a \n \t \a \k \a \l \u  by \sp_kijetesantakalu;
+    sub \m \o \n \s \u \t \a  by \sp_monsuta;
 } ligaStandardLigaturesinLatinlookup0;
 
 feature liga {
@@ -141,22 +158,25 @@ feature liga {
 } liga;
 #Mark attachment classes (defined in GDEF, used in lookupflags)
 
-@GDEF_Simple = [\uni00A0 \a \o \e \NameMe.98 \NameMe.99 \NameMe.100 \a.0 \e.0 \o.0 
-	\space \b \c \d \f \g \h \i \j \k \l \m \n \p \q \r \s \t \u \v \w \x \y \z \Z \A \B \C \D \E \F \G \H \I 
-	\J \K \L \M \N \O \P \Q \R \S \T \U \V \W \X \Y \question \semicolon \colon \zero \one \two 
-	\three \four \five \six \seven \eight \nine \period \comma \exclam \quotedbl 
-	\numbersign \dollar \percent \ampersand \quotesingle \parenleft \parenright 
-	\asterisk \plus \hyphen \slash \less \equal \greater \at \bracketleft \backslash 
-	\bracketright \asciicircum \underscore \NameMe.0 ];
-@GDEF_Ligature = [\sinpin \sitelen \sona \sina \sin \sewi \sijelo \sike \akesi \ala 
-	\alasa \ali \anpa \ante \anu \awen \en \esun \ijo \ike \ilo \insa \jaki \jan \jelo \jo 
-	\kala \kalama \kama \kasi \ken \kepeken \kili \kiwen \ko \kon \kule \kulupu \kute \la 
-	\lape \laso \lawa \len \lete \li \lili \linja \lipu \loje \lon \luka \lukin \lupa \ma 
-	\mama \mani \meli \mi \mije \moku \moli \monsi \mu \mun \musi \mute \nanpa \nasa 
+@GDEF_Simple = [\uni00A0 \a \o \e \NameMe.98 \NameMe.99 \NameMe.100 \e.0 \o.0 \space 
+	\b \c \d \f \g \h \i \j \k \l \m \n \p \q \r \s \t \u \v \w \x \y \z \Z \A \B \C \D \E \F \G \H \I \J \K \L 
+	\M \N \O \P \Q \R \S \T \U \V \W \X \Y \question \semicolon \colon \zero \one \two \three 
+	\four \five \six \seven \eight \nine \period \comma \exclam \quotedbl \numbersign 
+	\dollar \percent \ampersand \quotesingle \parenleft \parenright \asterisk \plus 
+	\hyphen \slash \less \equal \greater \at \bracketleft \backslash \bracketright 
+	\asciicircum \underscore \NameMe.0 \sp_n \Adieresis \Odieresis \Aring \AE 
+	\Oslash \Eth \Thorn \adieresis \odieresis \aring \ae \oslash \eth \thorn ];
+@GDEF_Ligature = [\sinpin \sitelen \sona \sina \sin \sewi \sijelo \sike \a.0 \akesi 
+	\ala \alasa \ali \anpa \ante \anu \awen \en \esun \ijo \ike \ilo \insa \jaki \jan \jelo 
+	\jo \kala \kalama \kama \kasi \ken \kepeken \kili \kiwen \ko \kon \kule \kulupu \kute 
+	\la \lape \laso \lawa \len \lete \li \lili \linja \lipu \loje \lon \luka \lukin \lupa 
+	\ma \mama \mani \meli \mi \mije \moku \moli \monsi \mu \mun \musi \mute \nanpa \nasa 
 	\nasin \nena \ni \nimi \noka \olin \ona \open \pakala \pali \palisa \pan \pana \pi 
 	\pilin \pimeja \pini \pipi \poka \poki \pona \pu \sama \seli \selo \seme \soweli 
 	\suli \suno \supa \suwi \tan \taso \tawa \telo \tenpo \toki \tomo \tu \unpa \uta 
-	\utala \walo \wan \waso \wawa \weka \wile \leko \space.0 ];
+	\utala \walo \wan \waso \wawa \weka \wile \leko \space.0 \sp_namako \sp_kin 
+	\sp_kipisi \sp_oko \sp_tonsi \sp_jasima \sp_soko \sp_meso \sp_epiku 
+	\sp_kokosila \sp_lanpan \sp_misikeke \sp_ku \sp_kijetesantakalu \sp_monsuta ];
 
 table GDEF {
   GlyphClassDef @GDEF_Simple, @GDEF_Ligature, , ;
