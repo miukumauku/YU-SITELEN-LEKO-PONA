@@ -7,8 +7,8 @@ Retro 7x5 pixels display design font.
 
 
 ## Files
-* SITELEN-LEKO-PONA.ttf (OpenType font)
-* SITELEN-LEKO-PONA.ufo (UFO3 font format: source code)
+* YU-SITELEN-LEKO-PONA.ttf (OpenType font)
+* YU-SITELEN-LEKO-PONA.ufo (UFO3 font format: source code)
 
 ## Glyphs
 
