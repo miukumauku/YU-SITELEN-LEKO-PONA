@@ -1,6 +1,6 @@
 # YU-SITELEN-LEKO-PONA (Open Source Font)
 
-v0.70  
+v0.80  
 
 This font is a *sitelen pona* font for *toki pona* language.  
 Retro 7x5 pixels display design font. 
@@ -30,6 +30,9 @@ For example, if you can display *mi sitelen kepeken sitelen pona.*, you input th
 displayed like:  
 {mi}{sitelen}{kepeken}{sitelen}{pona}{.}
 ![example](./images/example.png)
+
+
+You can display the new glyph 'su' with input sequence {s}{u}.  
 
 ## Sample
 

@@ -11,9 +11,9 @@
     <key>versionMajor</key>
     <integer>0</integer>
     <key>versionMinor</key>
-    <integer>700</integer>
+    <integer>800</integer>
     <key>copyright</key>
-    <string>Copyright (c) 2023, @miukumauku_</string>
+    <string>Copyright (c) 2023-2024, @miukumauku_</string>
     <key>unitsPerEm</key>
     <integer>640</integer>
     <key>ascender</key>
@@ -31,7 +31,7 @@
     <key>openTypeHheaLineGap</key>
     <integer>89</integer>
     <key>openTypeNameVersion</key>
-    <string>Version 0.700</string>
+    <string>Version 0.800</string>
     <key>openTypeOS2WidthClass</key>
     <integer>5</integer>
     <key>openTypeOS2WeightClass</key>

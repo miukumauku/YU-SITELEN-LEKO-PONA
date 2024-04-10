@@ -496,5 +496,7 @@
     <string>eth.glif</string>
     <key>thorn</key>
     <string>thorn.glif</string>
+    <key>sp_su</key>
+    <string>sp_su.glif</string>
   </dict>
 </plist>

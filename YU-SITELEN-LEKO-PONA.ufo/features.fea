@@ -19,8 +19,8 @@ lookup ligaStandardLigaturesinLatinlookup0 {
     sub \a \k \e \s \i  by \akesi;
     sub \a \l \a  by \ala;
     sub \a \l \a \s \a  by \alasa;
-    sub \a \l \e  by \ali;
     sub \a \l \i  by \ali;
+    sub \a \l \e  by \ali;
     sub \a \n \p \a  by \anpa;
     sub \a \n \t \e  by \ante;
     sub \a \n \u  by \anu;
@@ -103,8 +103,8 @@ lookup ligaStandardLigaturesinLatinlookup0 {
     sub \s \a \m \a  by \sama;
     sub \s \e \l \i  by \seli;
     sub \s \e \l \o  by \selo;
-    sub \seme \question  by \seme;
     sub \s \e \m \e  by \seme;
+    sub \seme \question  by \seme;
     sub \s \o \w \e \l \i  by \soweli;
     sub \s \u \l \i  by \suli;
     sub \s \u \n \o  by \suno;
@@ -144,6 +144,7 @@ lookup ligaStandardLigaturesinLatinlookup0 {
     sub \k \u  by \sp_ku;
     sub \k \i \j \e \t \e \s \a \n \t \a \k \a \l \u  by \sp_kijetesantakalu;
     sub \m \o \n \s \u \t \a  by \sp_monsuta;
+    sub \s \u  by \sp_su;
 } ligaStandardLigaturesinLatinlookup0;
 
 feature liga {
@@ -176,7 +177,8 @@ feature liga {
 	\suli \suno \supa \suwi \tan \taso \tawa \telo \tenpo \toki \tomo \tu \unpa \uta 
 	\utala \walo \wan \waso \wawa \weka \wile \leko \space.0 \sp_namako \sp_kin 
 	\sp_kipisi \sp_oko \sp_tonsi \sp_jasima \sp_soko \sp_meso \sp_epiku 
-	\sp_kokosila \sp_lanpan \sp_misikeke \sp_ku \sp_kijetesantakalu \sp_monsuta ];
+	\sp_kokosila \sp_lanpan \sp_misikeke \sp_ku \sp_kijetesantakalu \sp_monsuta 
+	\sp_su ];
 
 table GDEF {
   GlyphClassDef @GDEF_Simple, @GDEF_Ligature, , ;
