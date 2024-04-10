@@ -28,7 +28,7 @@ You can display one space letter with inputing {space}{space}.
 For example, if you can display *mi sitelen kepeken sitelen pona.*, you input this:  
 {m}{i}{space}{s}{i}{t}{e}{l}{e}{n}{space}{k}{e}{p}{e}{k}{e}{n}{space}{s}{i}{t}{e}{l}{e}{n}{space}{p}{o}{n}{a}{.}  
 displayed like:  
-{mi}{sitelen}{kepeken}{sitelen}{pona}{.}
+{mi}{sitelen}{kepeken}{sitelen}{pona}{.}  
 ![example](./images/example.png)
 
 
